@@ -2,24 +2,24 @@
 <p align="center">
 <img src ="assets\Traive_Logo_AI_Laranja.png"/>
 </p>
-<h1 align="center">{{ $projectName }}</h1> 
+<h1 align="center">{{ $.projectName }}</h1> 
 
 <p align="center">
   <h4> Version </h4>
-  {{ $version }}
+  {{ $.version }}
   <h4> Framework </h4>
-  {{ $framework}}
+  {{ $.framework}}
 </p>
 
   ### Summary 
 
-:seedling: [Description](#Description:writing_hand:)
+:seedling: [Description](#Description)
 
 :seedling: [Pre Requests](#requests)
 
-:seedling: [How to run the Application](#How-to-run-the-application:gear:)
+:seedling: [How to run the Application](#How-to-run-the-application)
 
-:seedling: [Developers](#developers:clap:)
+:seedling: [Developers](#developers)
 
 <p>
 
@@ -35,21 +35,21 @@
 ## Description :writing_hand:
 
 <p align="justify">
-{{ $description}}  
+{{ $.description}}  
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Requests
 
 <p align="justify">
-  {{ $preRequest}}
+  {{ $.preRequest}}
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## How to run the application :gear:
 
 <p align="justify">
-  {{ $howToRun }}
+  {{ $.howToRun }}
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
