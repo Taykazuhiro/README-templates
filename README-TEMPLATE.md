@@ -30,7 +30,7 @@
 
 
 
-## Description:writing_hand:
+## Description :writing_hand:
 
 <p align="justify">
 :writing_hand:<>  
@@ -44,7 +44,7 @@
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## How to run the application:gear:
+## How to run the application :gear:
 
 <p align="justify">
   
@@ -52,7 +52,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Developers:clap: 
+## Developers :clap: 
 
 | [<img src="https://avatars.githubusercontent.com/u/187814402?s=96&v=4" width=115><br><sub>Tayna Silva</sub>](https://github.com/Taykazuhiro) |  [<img src="https://avatars.githubusercontent.com/u/158075224?v=4" width=115><br><sub>Jaques Schroeder</sub>](https://github.com/jaquesschroedertraive) |  [<img src="https://avatars.githubusercontent.com/u/158075224?v=4" width=115><br><sub>Jaques Schroeder</sub>](https://github.com/jaquesschroedertraive) 
 | :---: | :---: | :---: 
