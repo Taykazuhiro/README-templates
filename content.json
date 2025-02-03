@@ -1,8 +1,8 @@
 {
-    "projectName": "",
+    "projectName": "Teste",
     "version": "30",
-    "framework": "",
-    "description": "",
-    "preRequest": "",
-    "howToRun": ""
+    "framework": "JS/MD",
+    "description": "TESTE",
+    "preRequest": "TESTE",
+    "howToRun": "TESTE"
 }
