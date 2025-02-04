@@ -13,8 +13,9 @@ const readmeContent = `
 
 <p align="center">
   <h4> Version </h4>
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaykazuhiro%2FREADME-templates%2Fmain%2Fcontent.json&query=%24.version&prefix=%5B&suffix=%5D&label=version
-">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaykazuhiro%2FREADME-templates%2Fmain%2Fcontent.json&query=%24.version&prefix=%5B&suffix=%5D&label=version">
+
+
   <h4> Framework </h4>
   ${data.framework}
 </p>
