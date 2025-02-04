@@ -1,9 +1,9 @@
 {
-    "projectName": "Teste",
+    "projectName": "README GENERATOR EXAMPLE",
     "version": "40",
     "framework": "JS",
-    "description": "TESTE",
-    "preRequest": "TESTE",
-    "howToRun": "TESTE",
-    "devsName": "Tay"
+    "description": "This project was developed during Traive Hackaton 2025 to automate the readme creation process.",
+    "preRequest": "Node.js version 22.13.1",
+    "howToRun": "Clone this repo; fill out the content,json file with your readme information; In your terminal type node 'generate-readme.js' and press enter, the file will be generate and you can push it to your repo",
+    "devsName": "Jaques Schroeder & Tayná Silva"
 }
