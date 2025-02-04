@@ -4,5 +4,6 @@
     "framework": "JS/MD",
     "description": "TESTE",
     "preRequest": "TESTE",
-    "howToRun": "TESTE"
+    "howToRun": "TESTE",
+    "devsName": "Tay"
 }

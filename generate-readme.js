@@ -1,14 +1,13 @@
 const fs = require('fs');
-
-
 const data = JSON.parse(fs.readFileSync('content.json', 'utf8'));
+
 
 // Gera o conteúdo do README
 const readmeContent = `
 <a id="readme-top"></a>
 <script type="text/javascript" src="dados.json"></script>
 <p align="center">
-<img src ="assets\Traive_Logo_AI_Laranja.png"/>
+<img src ="assets/Traive_Logo_AI_Laranja.png"/>
 </p>
 <h1 align="center">${data.projectName}</h1> 
 
@@ -53,9 +52,7 @@ ${data.description}
 
 
 ## Developers :clap: 
-
-| [<img src="https://avatars.githubusercontent.com/u/187814402?s=96&v=4" width=115><br><sub>Tayna Silva</sub>](https://github.com/Taykazuhiro) |  [<img src="https://avatars.githubusercontent.com/u/158075224?v=4" width=115><br><sub>Jaques Schroeder</sub>](https://github.com/jaquesschroedertraive) |  [<img src="https://avatars.githubusercontent.com/u/158075224?v=4" width=115><br><sub>Jaques Schroeder</sub>](https://github.com/jaquesschroedertraive) 
-| :---: | :---: | :---: 
+ ${data.devsName} 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 `;
