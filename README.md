@@ -1,6 +1,5 @@
 
 <a id="readme-top"></a>
-<script type="text/javascript" src="dados.json"></script>
 <p align="center">
 <img src ="assets/Traive_Logo_AI_Laranja.png"/>
 </p>
