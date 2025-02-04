@@ -1,15 +1,22 @@
+const fs = require('fs');
+
+
+const data = JSON.parse(fs.readFileSync('content.json', 'utf8'));
+
+// Gera o conteúdo do README
+const readmeContent = `
 <a id="readme-top"></a>
 <script type="text/javascript" src="dados.json"></script>
 <p align="center">
 <img src ="assets\Traive_Logo_AI_Laranja.png"/>
 </p>
-<h1 align="center">{{ $.projectName }}</h1> 
+<h1 align="center">${data.projectName}</h1> 
 
 <p align="center">
   <h4> Version </h4>
-  {{ $.version }}
+  ${data.version}
   <h4> Framework </h4>
-  {{ $.framework}}
+  ${data.framework}
 </p>
 
   ### Summary 
@@ -22,24 +29,25 @@
 
 :seedling: [Developers](#developers)
 
+
 ## Description :writing_hand:
 
 <p align="justify">
-{{ $.description}}  
+${data.description} 
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Requests
 
 <p align="justify">
-  {{ $.preRequest}}
+  ${data.preRequest} 
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## How to run the application :gear:
 
 <p align="justify">
-  
+  ${data.howToRun} 
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,3 +58,9 @@
 | :---: | :---: | :---: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+`;
+
+// Salva o conteúdo no README.md
+fs.writeFileSync('README.md', readmeContent);
+
+console.log('README.md gerado com sucesso!');
