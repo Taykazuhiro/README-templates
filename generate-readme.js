@@ -12,8 +12,7 @@ const readmeContent = `
 
   <h4 align="center"> Version & Framework </h4>
   <p align="center">
-  | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaykazuhiro%2FREADME-templates%2Fmain%2Fcontent.json&query=%24.version&prefix=%5B&suffix=%5D&label=version"> | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaykazuhiro%2FREADME-templates%2Fmain%2Fcontent.json&query=%24.framework&prefix=%5B&suffix=%5D&label=framework&color=%23faa61a
-"> |
+  | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaykazuhiro%2FREADME-templates%2Frefs%2Fheads%2Fmain%2Fcontent.json&query=%24.version&label=version"> | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FTaykazuhiro%2FREADME-templates%2Frefs%2Fheads%2Fmain%2Fcontent.json&query=%24.framework&label=version&color=%23faa61a"> |
 </p>
 
   ### Summary 

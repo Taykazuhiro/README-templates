@@ -1,7 +1,7 @@
 {
     "projectName": "Teste",
-    "version": "36",
-    "framework": "JS/MD",
+    "version": "40",
+    "framework": "JS",
     "description": "TESTE",
     "preRequest": "TESTE",
     "howToRun": "TESTE",
