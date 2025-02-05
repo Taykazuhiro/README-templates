@@ -3,7 +3,7 @@
 <p align="center">
 <img src ="assets/Traive_Logo_AI_Laranja.png"/>
 </p>
-<h1 align="center">README GENERATOR TESTE 32</h1> 
+<h1 align="center">README GENERATOR TESTE 34</h1> 
 
   <h4 align="center"> Version & Framework </h4>
   <p align="center">
