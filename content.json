@@ -1,9 +1,9 @@
 {
-    "projectName": "README GENERATOR TESTE 31",
-    "version": "31",
+    "projectName": "README GENERATOR TESTE 32",
+    "version": "32",
     "framework": "JS",
     "description": "This project was developed during Traive Hackaton 2025 to automate the readme creation process.",
     "preRequest": "Node.js version 22.13.1",
-    "howToRun": ["Make sure you also Allow all actions and reusable workflows on the repository you are trying to use this action","Download the content.json file", "fill out the content.json file with your readme information;", "Push the file to your repository with this workflow as reference","Done! You're README.MD is ready!"],
+    "howToRun": ["Make sure you have the workflow read and write permitions enabled","Make sure you also Allow all actions and reusable workflows on the repository you are trying to use this action","Download the content.json file", "fill out the content.json file with your readme information;", "Push the file to your repository with this workflow as reference","Done! You're README.MD is ready!"],
     "devsName": "Jaques Schroeder & Tayná Silva"
 }
