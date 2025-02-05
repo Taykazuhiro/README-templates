@@ -39,10 +39,12 @@ This project was developed during Traive Hackaton 2025 to automate the readme cr
 
 <p align="justify">
   <ol>
-  <li> Clone this repo</li> 
+  <li> Make sure you have the workflow read and write permitions enabled</li> 
+<li> Make sure you also Allow all actions and reusable workflows on the repository you are trying to use this action</li> 
+<li> Download the content.json file</li> 
 <li> fill out the content.json file with your readme information;</li> 
-<li> In your terminal type node 'generate-readme.js' and press enter</li> 
-<li> the file will be generate and you can push it to your repo</li> 
+<li> Push the file to your repository with this workflow as reference</li> 
+<li> Done! You're README.MD is ready!</li> 
 
   </ol>
 </p>
