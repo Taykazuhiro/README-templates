@@ -1,6 +1,6 @@
 {
     "projectName": "README GENERATOR EXAMPLE",
-    "version": "51",
+    "version": "28",
     "framework": "JS",
     "description": "This project was developed during Traive Hackaton 2025 to automate the readme creation process.",
     "preRequest": "Node.js version 22.13.1",
