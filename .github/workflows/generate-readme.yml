@@ -1,3 +1,4 @@
+yaml
 name: Generate README
 
 on:
@@ -8,29 +9,38 @@ on:
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }} 
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest] 
+    runs-on: ${{ ubuntu-latest }}
 
     steps:
-      - name: Clonar o repositório
+      - name: Clone repository
         uses: actions/checkout@v3
 
-      - name: Configurar Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '21'
+          node-version: '22'
 
-      - name: Gerar README.md
-        run: node generate-readme.js
+      - name: Generate README.md
+        run: node generate-readme.js  
 
-      - name: Fazer commit das alterações
-        if: matrix.os == 'ubuntu-latest'  # Faz commit apenas no Ubuntu para evitar conflitos
+      - name: Check if README.md was created or updated
+        id: check_changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          if git ls-files --error-unmatch README.md > /dev/null 2>&1; then
+            if git diff --quiet README.md; then
+              echo "changed=false" >> $GITHUB_ENV
+            else
+              echo "changed=true" >> $GITHUB_ENV
+            fi
+          else
+            echo "changed=true" >> $GITHUB_ENV
+          fi
+
+      - name: Commit updates
+        if: env.changed == 'true'
+        run: |
+          git config --global user.name 'taykazuhiro'
+          git config --global user.email 'taykazuhiro@gmail.com'
           git add README.md
-          git commit -m 'Atualizar README.md automaticamente' || echo "Sem mudanças para commitar"
+          git commit -m 'Create/Update README.md automatically'
           git push
