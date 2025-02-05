@@ -1,8 +1,17 @@
 const fs = require('fs');
 const data = JSON.parse(fs.readFileSync('content.json', 'utf8'));
+let howToRunArray = [];
 
+function readHowToRunArray (){
+  howToRunArray = data.howToRun;
+  var steps = "";
+  for (var i=0; i < howToRunArray.length; i++) {
+    steps += `<li> ${howToRunArray[i]}</li> \n`;
+  }
+  return steps;
+}
 
-// Gera o conteúdo do README
+// generate readme content
 const readmeContent = `
 <a id="readme-top"></a>
 <p align="center">
@@ -43,7 +52,9 @@ ${data.description}
 ## How to run the application :gear:
 
 <p align="justify">
-  ${data.howToRun} 
+  <ol>
+  ${readHowToRunArray()}
+  </ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

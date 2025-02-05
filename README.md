@@ -38,7 +38,13 @@ This project was developed during Traive Hackaton 2025 to automate the readme cr
 ## How to run the application :gear:
 
 <p align="justify">
-  Clone this repo; fill out the content,json file with your readme information; In your terminal type node 'generate-readme.js' and press enter, the file will be generate and you can push it to your repo 
+  <ol>
+  <li> Clone this repo</li> 
+<li> fill out the content.json file with your readme information;</li> 
+<li> In your terminal type node 'generate-readme.js' and press enter</li> 
+<li> the file will be generate and you can push it to your repo</li> 
+
+  </ol>
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
